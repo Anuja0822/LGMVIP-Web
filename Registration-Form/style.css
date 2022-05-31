@@ -1,25 +1,29 @@
-*{
-    background-color: purple;
+* {
+    background-color: rgb(64, 157, 219);
 }
-h1{
+
+h1 {
     text-align: center;
 }
-table{
-	margin-top: 90px;
-	text-align: center;
-	background: #333;
-	color: black;
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: black;
     table-layout: var(300%);
-	width:30%;
-	height:60%;
+    width: 30%;
+    height: 60%;
 
 }
 
-#show th, #show td{
-	padding: 20px;
+#show th,
+#show td {
+    padding: 20px;
 }
 
-#btna td input{
-	width: 100%;
+#btna td input {
+    width: 50%;
     height: 50%;
-} 
+    background-color: chartreuse;
+}
